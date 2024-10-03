@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+
+.top-bar {
+  background-color: #b5d8e3;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0;
+}
+
+.left-logos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  gap: 1px;
+  padding-left: 60px;
+}
+
+.logo-small {
+  width: 50px; 
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo-link {
+  flex: 1;
+}
+
+.logo1 {
+  width: 80px;
+}
+
+
+nav {
+  flex: 2;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav li {
+  margin: 0 20px;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  max-width: 1200px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.main-nav li a:hover {
+  color: #757575;
+}
+
+
+.nav-icons {
+  position: right;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon-link {
+  margin-left: 20px;
+}
+
+.icon1 {
+  width: 24px;
+}
+
+.icon2 {
+  width: 26px;
+}
+
+.content {
+  background-color: #e5e5e5;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  position: relative;
+  margin-top: 0px;
+  background-color: #ffffff;
+  max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    opacity: .6;
+    text-align: center;
+
+}
+
+.tile {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+
+}
+
+.tilebg1 {
+  background-image: url("img/1.png");
+
+}
+
+.tilebg2 {
+  background-image: url("img/3.png");
+}
+
+
+.tilebg3 {
+  background-image: url("img/5.png");
+
+}
+
+.tilebg4 {
+  background-image: url("img/4.png");
+}
+
+.tilebg5 {
+  background-image: url("img/6.png");
+}
+
+.tilebg6 {
+  background-image: url("img/2.png");
+}
+
+
+.outer {
+
+  text-align: center;
+
+}
