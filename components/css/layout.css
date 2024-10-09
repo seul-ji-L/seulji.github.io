@@ -105,14 +105,15 @@ header .container {
 .story-item h3 {
   margin-top: 15px;
   margin-bottom: 10px;
-  font-size: 18px;
-  line-height: 1.2;
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 1.0;
 }
 
 .story-item p {
   margin: 0;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 12px;
+  line-height: 1.35;
   color: #666;
 }
 
