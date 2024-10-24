@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+
+   	body{
+   		font-family: orpheus;
+   		font-size:100px;
+        font-weight: 300;
+   		color:#FFF;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+      
+    .card{
+    	position: relative;
+       background-color:lavender;
+       display: inline-block;
+    }
+
+    .card img{
+      width:100%;
+      height:auto;
+    }
+
+
+    .center {
+
+     padding: 40% 0;
+     text-align: center;
+    }
+
+
+    .card_overlay{
+    	position:absolute;
+    	background-color: lightsteelblue;
+    	width:100%;
+    	height:100%;
+    	transition: 2s ease;
+    	
+
+    }
+
+
+    .card:hover .card_overlay{
+
+    	opacity: 0;
+
+
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  <div class="card_overlay"><p class="center">Brilliantly</p></div>
+       	  <img src="img/aurora.jpg" alt="aurora">
+       </div>
+	</div>
+
+</body>
+</html>
